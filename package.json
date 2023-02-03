@@ -1,0 +1,16 @@
+{
+  "name": "katkode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node": "^19.4.0",
+    "node-sass": "^8.0.0"
+  }
+}
