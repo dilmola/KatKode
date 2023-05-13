@@ -363,10 +363,10 @@ html, body {
   position: relative; }
 
 .form_input {
-  border: solid 3px #6C584C;
+  border: solid 3px #F0EAD2;
+  background-color: #F0EAD2;
   border-radius: 0.5rem;
   width: 100%;
-  background: none;
   padding: 1rem;
   font-size: 1rem;
   color: #000000;
@@ -374,24 +374,14 @@ html, body {
   .form_input:focus, .form_input:valid {
     outline: none;
     border: 3px solid #000000; }
-  .form_input:focus ~ label, .form_input:valid ~ label {
-    transform: translateY(-50%) scale(0.8);
-    background-color: #f4f3ee;
-    padding: 0 .2em;
-    color: #000000; }
 
-.form_label {
-  position: absolute;
-  left: 15px;
-  color: #e8e8e8;
-  pointer-events: none;
-  transform: translateY(1rem);
-  transition: 150ms cubic-bezier(0.4, 0, 0.2, 1); }
+
 
 .text-area {
-  min-height: 15rem;
+  min-height: 10rem;
   max-width: 100%;
-  min-width: 100%; }
+  min-width: 100%;
+   }
 
 .footer {
   background-color: #f0ead2;
