@@ -4,7 +4,7 @@
 
 .row {
   max-width: 100%;
-  margin: 0 100px auto 100px;
+  margin: 0 125px auto 125px;
   display: flex;
   justify-content: center; }
   @media (max-width: 75em) {
@@ -250,7 +250,8 @@ html, body {
     transform: translateX(20em); }
 
 .section-choose {
-  margin-bottom: 4rem; }
+  margin-bottom: 10rem;
+  margin-top: 4rem; }
   @media (max-width: 75em) {
     .section-choose {
       height: 70vh; } }
@@ -271,7 +272,8 @@ html, body {
       height: 70vh; } }
 
 .section-project {
-  margin-bottom: 4rem; }
+  margin-bottom: 10rem;
+  margin-top: 4rem; }
   @media (max-width: 75em) {
     .section-project {
       height: 70vh; } }
