@@ -43,7 +43,8 @@
   color: #1d2d44; }
 
 .h2-size {
-  font-size: 3rem;
+  text-transform: uppercase;
+  font-size: 2.6rem;
   font-weight: 600;
   display: block;
   color: #1d2d44; }
@@ -203,15 +204,16 @@ html, body {
     text-decoration: none;
     position: relative; }
     .nav__link:link, .nav__link:visited {
-      color: #1d2d44;
+      color: #00000097;
       border: 3px solid rgba(254, 254, 254, 0);
       text-decoration: none;
       text-transform: uppercase;
       transition: all .2s;
       display: inline; }
     .nav__link:hover, .nav__link:active {
-      color: #6C584C;
-      display: inline; }
+      color: #000000;
+      display: inline;
+      font-weight: 900; }
 
 .btn {
   font-size: 20px;
