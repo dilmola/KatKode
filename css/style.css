@@ -50,7 +50,7 @@
 
 .h3-size {
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
   color: #1d2d44; }
 
 .box-paragraph {
@@ -99,6 +99,13 @@
 .text-align-left {
   text-align: left !important; }
 
+.heading-tertiary{
+  width: 60rem; 
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
 *,
 *::after,
 *::before {
@@ -330,7 +337,7 @@ html, body {
 
 .service__img {
   background-size: cover;
-  height: 31rem;
+  height: 26rem;
   position: relative; }
   .service__img--img1 {
     background-image: url(../includes/service-img1.png); }
@@ -342,7 +349,7 @@ html, body {
   height: auto;
   background: #FEFAE0;
   position: relative;
-  bottom: -18rem;
+  bottom: -14rem;
   margin: 0rem;
   padding: 1.2rem;
   border-radius: 0.4rem; }
